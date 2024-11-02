@@ -1,0 +1,13 @@
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding-inline: 0;
+  justify-content: center;
+
+  &__link {
+    @extend %link;
+    text-decoration: none;
+  }
+}

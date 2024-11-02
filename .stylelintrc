@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-recommended-scss"],
+  "plugins": [
+    "stylelint-selector-bem-pattern"
+  ],
+  "rules": {
+    "plugin/selector-bem-pattern": {
+      "preset": "bem",
+      "implicitComponents": true,
+      "implicitUtilities": "src/assets/styles/utils/_utils.scss",
+      "utilitySelectors": "^\\.u-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    }
+  }
+}

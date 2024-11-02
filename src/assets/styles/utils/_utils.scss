@@ -1,0 +1,16 @@
+.u-bold {
+  font-weight: bold;
+}
+
+.u-margin-top-0 {
+  margin-top: 0;
+}
+
+.u-wrapped-image {
+  max-width: min(800px, 100%);
+
+  @include large {
+    float: right;
+    margin-left: 16px;
+  }
+}

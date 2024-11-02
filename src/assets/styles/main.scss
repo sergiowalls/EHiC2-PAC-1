@@ -1,0 +1,38 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+@import "~node_modules/leaflet/dist/leaflet.css";
+
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@import "utils/layout";
+@import "utils/utils";
+@import "components/body";
+@import "components/heading";
+@import "components/link";
+@import "components/image";
+@import "components/footer";
+@import "components/twoColumns";
+@import "components/toc";
+@import "components/map";
+
+/**
+ * Do NOT include anything else in this file!
+ */

@@ -1,0 +1,16 @@
+@use "sass:color";
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$primary-color: #dad7cd;
+$secondary-color: #588157;
+$accent-color: #344e41;
+
+@mixin large {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
